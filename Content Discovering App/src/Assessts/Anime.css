@@ -1,0 +1,773 @@
+*{
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.anime_grid_body{
+    background-color:white;
+}
+.anime_grid_Navigation{
+    background-color:whitesmoke;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.anime_grid_Navigation .anime_grid_appname{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    right: 25%;
+    cursor: pointer;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* height: 100%; */
+    /* left: 10%; */
+}
+.anime_grid_navlink{
+    display: flex;
+    position: relative;
+    /* left: 30%; */
+    /* text-align: center; */
+    font-size: 20px;
+    font-weight: bold;
+    gap: 30px;
+    cursor: pointer;
+}
+.anime_grid_account{
+    color:gray;
+    position: relative;
+    left:  20%;
+    cursor: pointer;
+}
+.anime_grid_recommend{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+    height: 150px;
+    width: 88vw;
+    flex-direction: column;
+}
+.anime_grid_button{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.anime_link{
+    text-decoration: none;
+    color: black;
+}
+.anime_current{
+    color: red;
+}
+
+
+/* -------------------------GRID -> 1 -----------------------------------*/
+.anime_grid1{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: auto minmax(300px,400px) minmax(300px,400px) minmax(300px,400px) auto;
+    gap: 20px;
+}
+.anime_grid1 .anime_grid1component1{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    /* background-color: gainsboro; */
+}
+.anime_grid1 .anime_grid1component2{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    /* background-color: gainsboro; */
+    cursor: pointer;
+}
+.anime_grid1 .anime_grid1component3{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.anime_grid1 .anime_grid1component1 .anime_g1c1bgp1{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/477/218/430/anime-one-piece-straw-hat-pirate-strawhat-wallpaper-preview.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+.anime_grid1 .anime_grid1component1 .anime_g1c1bgm1{
+    width: 97%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    position: relative;
+    left: 10px;
+    /* background-color: blue; */
+}
+
+
+
+
+.anime_grid1 .anime_grid1component2 .anime_g1c2bgp2{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://e1.pxfuel.com/desktop-wallpaper/263/863/desktop-wallpaper-naruto-group-naruto-team-7.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+}
+.anime_grid1 .anime_grid1component2 .anime_g1c2bgm2{
+    width: 97%;
+    /* background-color: blue; */
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
+    align-items: center;
+    /* gap: 10px; */
+    position: relative;
+    left: 10px;
+}
+
+
+
+.anime_grid1 .anime_grid1component3 .anime_g1c3bgp3{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://wallpapers.com/images/hd/kaguya-sama-love-is-war-0im2otust4l82hmn.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+}
+.anime_grid1 .anime_grid1component3 .anime_g1c3bgm3{
+    width: 97%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    position: relative;
+    left: 10px;
+    /* background-color: rgb(73, 235, 184); */
+}
+
+
+
+
+.anime_grid1 .anime_grid1component1:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+.anime_grid1 .anime_grid1component2:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+.anime_grid1 .anime_grid1component3:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+
+
+
+
+/* -------------------------GRID -> 2 -----------------------------------*/
+.anime_grid2{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: auto minmax(300px,400px) minmax(300px,400px) minmax(300px,400px) auto;
+    gap: 20px;
+}
+.anime_grid2 .anime_grid2component1{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+}
+.anime_grid2 .anime_grid2component2{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.anime_grid2 .anime_grid2component3{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.anime_grid2 .anime_grid2component1 .anime_g2c1bgp1{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/477/218/430/anime-one-piece-straw-hat-pirate-strawhat-wallpaper-preview.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+.anime_grid2 .anime_grid2component1 .anime_g2c1bgm1{
+    width: 97%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+.anime_grid2 .anime_grid2component2 .anime_g2c2bgp2{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://images7.alphacoders.com/114/1144151.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+}
+.anime_grid2 .anime_grid2component2 .anime_g2c2bgm2{
+    width: 97%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
+    align-items: center;
+    position: relative;
+    left: 10px;
+    overflow: hidden;
+}
+
+
+
+.anime_grid2 .anime_grid2component3 .anime_g2c3bgp3{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://wallpapers.com/images/featured/spy-x-family-lle6ipxax2sc1tfg.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+}
+.anime_grid2 .anime_grid2component3 .anime_g2c3bgm3{
+    width: 97%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+.anime_grid2 .anime_grid2component1:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+.anime_grid2 .anime_grid2component2:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+.anime_grid2 .anime_grid2component3:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+
+
+
+/* -------------------------GRID -> 3 -----------------------------------*/
+.anime_grid3{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: auto minmax(300px,400px) minmax(300px,400px) minmax(300px,400px) auto;
+    gap: 20px;
+}
+.anime_grid3 .anime_grid3component1{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+}
+.anime_grid3 .anime_grid3component2{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.anime_grid3 .anime_grid3component3{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.anime_grid3 .anime_grid3component1 .anime_g3c1bgp1{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://i.pinimg.com/originals/73/6a/65/736a6599a9bd044baf306f85ca8ef422.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+.anime_grid3 .anime_grid3component1 .anime_g3c1bgm1{
+    width: 97%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+.anime_grid3 .anime_grid3component2 .anime_g3c2bgp2{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://cdn.wallpapersafari.com/99/80/NkQf6V.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+}
+.anime_grid3 .anime_grid3component2 .anime_g3c2bgm2{
+    width: 97%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
+    align-items: center;
+    position: relative;
+    left: 10px;
+    overflow: hidden;
+}
+
+
+
+.anime_grid3 .anime_grid3component3 .anime_g3c3bgp3{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/65a20c13-b27b-49d8-9040-5eb8ecaba11e/cool-poster-art-for-chainsaw-man-created-by-vincent-aseo.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+}
+.anime_grid3 .anime_grid3component3 .anime_g3c3bgm3{
+    width: 97%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+.anime_grid3 .anime_grid3component1:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+.anime_grid3 .anime_grid3component2:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+.anime_grid3 .anime_grid3component3:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+
+
+
+
+/* -------------------------GRID -> 4 -----------------------------------*/
+.anime_grid4{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: auto minmax(300px,400px) minmax(300px,400px) minmax(300px,400px) auto;
+    gap: 20px;
+}
+.anime_grid4 .anime_grid4component1{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+}
+.anime_grid4 .anime_grid4component2{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.anime_grid4 .anime_grid4component3{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.anime_grid4 .anime_grid4component1 .anime_g4c1bgp1{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://rare-gallery.com/mocahbig/1348666-Izumi-Miyamura-Hori-KyoukoHori-san-To-Miyamura-kun.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+.anime_grid4 .anime_grid4component1 .anime_g4c1bgm1{
+    width: 97%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+.anime_grid4 .anime_grid4component2 .anime_g4c2bgp2{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://images.alphacoders.com/125/1254588.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+}
+.anime_grid4 .anime_grid4component2 .anime_g4c2bgm2{
+    width: 97%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
+    align-items: center;
+    position: relative;
+    left: 10px;
+    overflow: hidden;
+}
+
+
+
+.anime_grid4 .anime_grid4component3 .anime_g4c3bgp3{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://w0.peakpx.com/wallpaper/317/1013/HD-wallpaper-anime-violet-evergarden-violet-evergarden-character.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+}
+.anime_grid4 .anime_grid4component3 .anime_g4c3bgm3{
+    width: 97%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+.anime_grid4 .anime_grid4component1:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+.anime_grid4 .anime_grid4component2:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+.anime_grid4 .anime_grid4component3:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+
+
+
+/* -------------------------GRID -> 5 -----------------------------------*/
+.anime_grid5{
+    display: grid;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: auto minmax(300px,400px) minmax(300px,400px) minmax(300px,400px) auto;
+    gap: 20px;
+}
+.anime_grid5 .anime_grid5component1{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+}
+.anime_grid5 .anime_grid5component2{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.anime_grid5 .anime_grid5component3{
+    border-radius: 20px;
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.083),
+    0px 0px 5.3px rgba(0, 0, 0, 0.093),
+    0px 0px 10px rgba(0, 0, 0, 0.094),
+    0px 0px 17.9px rgba(0, 0, 0, 0.093),
+    0px 0px 33.4px rgba(0, 0, 0, 0.098),
+    0px 0px 80px rgba(0, 0, 0, 0.16)
+    ;
+    cursor: pointer;
+}
+.anime_grid5 .anime_grid5component1 .anime_g5c1bgp1{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://images5.alphacoders.com/790/790479.png');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+.anime_grid5 .anime_grid5component1 .anime_g5c1bgm1{
+    width: 97%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+.anime_grid5 .anime_grid5component2 .anime_g5c2bgp2{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://wallpapercave.com/wp/wp4089711.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+}
+.anime_grid5 .anime_grid5component2 .anime_g5c2bgm2{
+    width: 97%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column  ;
+    align-items: center;
+    position: relative;
+    left: 10px;
+    overflow: hidden;
+}
+
+
+
+.anime_grid5 .anime_grid5component3 .anime_g5c3bgp3{
+    height: 280px;
+    width: 100%;
+    background-image: url('https://w0.peakpx.com/wallpaper/226/334/HD-wallpaper-anime-weathering-with-you-hina-amano-hodaka-morishima.jpg');
+    background-size: 100% 280px;
+    border-radius: 20px 20px 0px 0px;
+}
+.anime_grid5 .anime_grid5component3 .anime_g5c3bgm3{
+    width: 97%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+.anime_grid5 .anime_grid5component1:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+.anime_grid5 .anime_grid5component2:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}
+.anime_grid5 .anime_grid5component3:hover{
+    box-shadow:
+    0px 0px 2.2px rgba(0, 0, 0, 0.172),
+    0px 0px 5.3px rgba(0, 0, 0, 0.192),
+    0px 0px 10px rgba(0, 0, 0, 0.193),
+    0px 0px 17.9px rgba(0, 0, 0, 0.192),
+    0px 0px 33.4px rgba(0, 0, 0, 0.202),
+    0px 0px 80px rgba(0, 0, 0, 0.33)
+    ;
+}

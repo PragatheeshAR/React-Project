@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "email": "patrick@gmail.com",
+      "name": "patrick",
+      "password": "pat",
+      "id": 1
+    },
+    {
+      "email": "kumar@gmail.com",
+      "name": "kiran",
+      "password": "kiran07",
+      "id": 2
+    },
+    {
+      "email": "praga@gmail.com",
+      "name": "praga",
+      "password": "praga2109",
+      "id": 3
+    },
+    {
+      "email": "prasann@gmail.com",
+      "name": "prasanna",
+      "password": "prince",
+      "id": 4
+    },
+    {
+      "email": "nitin@gmai.com",
+      "name": "nitin",
+      "password": "nitin",
+      "id": 5
+    },
+    {
+      "email": "karthi@gmail.com",
+      "name": "karthi",
+      "password": "karthi",
+      "id": 6
+    }
+  ]
+}

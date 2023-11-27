@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+}
+body{
+    height: 100vh;
+}
+.cine_nav{
+    height:10vh;
+    display: flex;
+}
+.cine_tic{
+    margin-top: 27px;
+    margin-left: 170px;
+}
+.cine_h1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cine_main{
+    height:89.5vh;
+    display: flex;
+}
+.cine_mainleft{
+    height: 89.5vh;
+    width: 45vw;
+}
+.cine_mainleftimage{
+    height:60vh;
+    width:20vw;
+    margin-left: 170px;
+    margin-top: 135px;
+    background: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202311/rajinikanth-and-kamal-haasan-are-shooting-in-the-same-studio-234844573-16x9_0.jpeg?VersionId=3yZyvh_toHD4UzJURrkH3Rr2ZHE1Qj.U&size=690:388);
+    background-size: 25vw 60vh;
+}
+.cine_mainright{
+    height:89.5vh;
+    width:60vw;
+}
+.cine_mainrightheading{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.cine_mainrightcontent{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.cine_navbutton{
+    margin-top: 25px;
+    margin-left: 1000px;
+    height: 40px;
+    width: 90px;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.cine_navbutton:hover{
+    background-color: white;
+    color:red;
+    border: 1px solid black;
+}

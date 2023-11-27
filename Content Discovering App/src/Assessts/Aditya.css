@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+}
+body{
+    height: 100vh;
+}
+.aditya_nav{
+    height:10vh;
+    display: flex;
+}
+.aditya_tic{
+    margin-top: 27px;
+    margin-left: 170px;
+}
+.aditya_h1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.aditya_main{
+    height:89.5vh;
+    display: flex;
+}
+.aditya_mainleft{
+    height: 89.5vh;
+    width: 45vw;
+}
+.aditya_mainleftimage{
+    height:60vh;
+    width:24vw;
+    margin-left: 170px;
+    margin-top: 135px;
+    background: url(https://img.jagranjosh.com/images/2023/August/1882023/what-is-aditya-l1-explained.jpg) no-repeat;
+    background-size: 24vw 50vh;
+}
+.aditya_mainright{
+    height:89.5vh;
+    width:60vw;
+}
+.aditya_mainrightheading{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.aditya_mainrightcontent{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.aditya_navbutton{
+    margin-top: 25px;
+    margin-left: 1000px;
+    height: 40px;
+    width: 90px;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.aditya_navbutton:hover{
+    background-color: white;
+    color:red;
+    border: 1px solid black;
+}

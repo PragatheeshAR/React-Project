@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+}
+body{
+    height: 100vh;
+}
+.cric_nav{
+    height:10vh;
+    display: flex;
+}
+.cric_tic{
+    margin-top: 27px;
+    margin-left: 170px;
+}
+.cric_h1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.cric_main{
+    height:89.5vh;
+    display: flex;
+}
+.cric_mainleft{
+    height: 89.5vh;
+    width: 45vw;
+}
+.cric_mainleftimage{
+    height:60vh;
+    width:20vw;
+    margin-left: 170px;
+    margin-top: 135px;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/ICC_Men%27s_WorldTwenty20_trophy.jpg/440px-ICC_Men%27s_WorldTwenty20_trophy.jpg);
+    background-size: 20vw 60vh;
+}
+.cric_mainright{
+    height:89.5vh;
+    width:60vw;
+}
+.cric_mainrightheading{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.cric_mainrightcontent{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.cric_navbutton{
+    margin-top: 25px;
+    margin-left: 1000px;
+    height: 40px;
+    width: 90px;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.cric_navbutton:hover{
+    background-color: white;
+    color:red;
+    border: 1px solid black;
+}

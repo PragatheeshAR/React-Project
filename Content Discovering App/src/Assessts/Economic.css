@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+}
+body{
+    height: 100vh;
+}
+.Economic_nav{
+    height:10vh;
+    display: flex;
+}
+.Economic_tic{
+    margin-top: 27px;
+    margin-left: 170px;
+}
+.Economic_h1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.Economic_main{
+    height:89.5vh;
+    display: flex;
+}
+.Economic_mainleft{
+    height: 89.5vh;
+    width: 45vw;
+}
+.Economic_mainleftimage{
+    height:60vh;
+    width:20vw;
+    margin-left: 170px;
+    margin-top: 135px;
+    background: url(https://media.istockphoto.com/id/1356239664/vector/economics-recession-crashed-stock-loss-trading.jpg?s=612x612&w=0&k=20&c=fe-pjmtl_prH_KNJa3Kvvf34jnvOi_yWAIJXintvZ80=);
+    background-size: 20vw 60vh;
+}
+.Economic_mainright{
+    height:89.5vh;
+    width:60vw;
+}
+.Economic_mainrightheading{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.Economic_mainrightcontent{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.Economic_navbutton{
+    margin-top: 25px;
+    margin-left: 1000px;
+    height: 40px;
+    width: 90px;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.Economic_navbutton:hover{
+    background-color: white;
+    color:red;
+    border: 1px solid black;
+}

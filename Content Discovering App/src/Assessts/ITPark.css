@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+}
+body{
+    height: 100vh;
+}
+.it_nav{
+    height:10vh;
+    display: flex;
+}
+.it_tic{
+    margin-top: 27px;
+    margin-left: 170px;
+}
+.it_h1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.it_main{
+    height:89.5vh;
+    display: flex;
+}
+.it_mainleft{
+    height: 89.5vh;
+    width: 45vw;
+}
+.it_mainleftimage{
+    height:60vh;
+    width:20vw;
+    margin-left: 170px;
+    margin-top: 135px;
+    background: url(https://infrainfohub.com/wp-content/uploads/2023/09/Future-Upcoming-Tamil-Nadu-Mega-Projects.jpg);
+    background-size: 20vw 60vh;
+}
+.it_mainright{
+    height:89.5vh;
+    width:60vw;
+}
+.it_mainrightheading{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.it_mainrightcontent{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.it_navbutton{
+    margin-top: 25px;
+    margin-left: 1000px;
+    height: 40px;
+    width: 90px;
+    background-color: red;
+    color:white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.it_navbutton:hover{
+    background-color: white;
+    color:red;
+    border: 1px solid black;
+}
